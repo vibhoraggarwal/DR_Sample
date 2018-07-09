@@ -1,0 +1,25 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+\usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0}, pdftitle={Design Report}, pdfauthor={<Name of the author>}, pdfsubject={Design Report IITKMS}, pdfkeywords={IITKMS,IIT}]{hyperref}
+
+\begin{document}
+\renewcommand\bibname{References} 
+\input{./title.tex}
+\pagenumbering{roman}
+\tableofcontents
+\listoftables
+\listoffigures
+\newpage
+\pagenumbering{arabic}
+
+\input{./brakerotor.tex}
+\input{./pedalassembly.tex}
+\input{./balancebar.tex}
+\input{./brakeassembly.tex}
+\input{./calculations.tex}
+\input{./ref.tex}
+
+\end{document}

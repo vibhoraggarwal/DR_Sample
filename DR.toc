@@ -1,0 +1,14 @@
+\contentsline {chapter}{\numberline {1}Brake Rotor}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Material selection for the rotor}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Pedal Assembly}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{2}{section.2.1}
+\contentsline {chapter}{\numberline {3}Balance bar}{3}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{3}{section.3.1}
+\contentsline {section}{\numberline {3.2}Designing}{3}{section.3.2}
+\contentsline {section}{\numberline {3.3}First Iteration}{3}{section.3.3}
+\contentsline {chapter}{\numberline {4}Brake Assembly}{5}{chapter.4}
+\contentsline {section}{\numberline {4.1}Master Cylinder Mount}{5}{section.4.1}
+\contentsline {chapter}{\numberline {5}Calculations}{6}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{6}{section.5.1}
+\contentsline {chapter}{References}{6}{section*.5}
