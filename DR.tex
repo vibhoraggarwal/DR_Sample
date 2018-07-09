@@ -1,20 +1,23 @@
 \documentclass[12pt,a4paper]{report}
-\usepackage{amsmath}
+\usepackage{amsmath}%Class to implement all the mathematics symbols and equations in the file
 \usepackage{caption}
 \usepackage[pdftex]{graphicx}
 \usepackage{url}
-\usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0}, pdftitle={Design Report}, pdfauthor={<Name of the author>}, pdfsubject={Design Report IITKMS}, pdfkeywords={IITKMS,IIT}]{hyperref}
+\usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0}, pdftitle={Design Report}, pdfauthor={<Name of the author>}, pdfsubject={Design Report IITKMS}, pdfkeywords={IITKMS,IIT}]{hyperref} % help create hyperlink to different content
 
+%% To edit your report, modify different .tex file in the folder you are in
 \begin{document}
 \renewcommand\bibname{References} 
+% Add a title page to your document by editing title.tex file
 \input{./title.tex}
-\pagenumbering{roman}
+\pagenumbering{roman} % This keeps the page numbering in roman numerals before you actually start the report
 \tableofcontents
 \listoftables
 \listoffigures
 \newpage
-\pagenumbering{arabic}
+\pagenumbering{arabic}% This keeps the page numbering in arabic numerals when you actually start the report
 
+% Modify the respective file in order to edit your report
 \input{./brakerotor.tex}
 \input{./pedalassembly.tex}
 \input{./balancebar.tex}
